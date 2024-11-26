@@ -34,12 +34,20 @@ if(urlParams.has("day")){//from querystring
  
  myDay = parseInt(myDay);//must change to integer for switch
 
-//myDay = 2;
+//myDay = 5;
 
 switch(myDay){
 
    case 0:
        today="Sunday";
+       coffee ={
+        name: "Drip",
+        pic: "images/drip.jpg",
+        alt: "A pic of a Drip Coffee",
+        color: "#704c49",
+        day: "Sunday",
+        desc: `i like Cold Brew`
+    };
    break;
 
    case 1:
@@ -60,8 +68,8 @@ switch(myDay){
         name: "Caramel Latte",
         pic: "images/caramel-latte.jpg",
         alt: "A pic of a Caramel Latte",
-        color: "yellow",
-        day: "Wednesday",
+        color: "#bd6754",
+        day: "Tuesday",
         desc: `i like Caramel Latte`
     };
     break;
@@ -81,11 +89,11 @@ switch(myDay){
      case 4:
         today="Thursday";
          coffee ={
-             name: "Bubble Tea",
-             pic: "images/bubble-tea.jpg",
+             name: "Frappaccino",
+             pic: "images/frappaccino.jpg",
              alt: "A pic of a bubble tea",
-             color: "pink",
-             day: "Wednesday",
+             color: "#659571",
+             day: "Thursday",
              desc: `i like Bubble tea`
          };
       break;
@@ -93,11 +101,11 @@ switch(myDay){
       case 5:
         today="Friday";
          coffee ={
-             name: "Bubble Tea",
-             pic: "images/bubble-tea.jpg",
-             alt: "A pic of a bubble tea",
-             color: "pink",
-             day: "Wednesday",
+             name: "Mocha",
+             pic: "images/mocha.jpg",
+             alt: "A pic of a Mocha",
+             color: "#d8c685",
+             day: "Friday",
              desc: `i like Bubble tea`
          };
       break;
@@ -105,11 +113,11 @@ switch(myDay){
       case 6:
         today="Saturday";
          coffee ={
-             name: "Bubble Tea",
-             pic: "images/bubble-tea.jpg",
+             name: "Pumkin",
+             pic: "images/pumpkin-spice-patte.jpg",
              alt: "A pic of a bubble tea",
-             color: "pink",
-             day: "Wednesday",
+             color: "#ea8447",
+             day: "Saturday",
              desc: `i like Bubble tea`
          };
       break;
