@@ -46,7 +46,7 @@ switch(myDay){
         alt: "A pic of a Drip Coffee",
         color: "#704c49",
         day: "Sunday",
-        desc: `i like Cold Brew`
+        desc: `Drip coffee is brewed by pouring hot water over ground coffee for a smooth, balanced cup.`
     };
    break;
 
@@ -58,7 +58,7 @@ switch(myDay){
              alt: "A pic of a Cold Brew",
              color: "brown",
              day: "Monday",
-             desc: `i like Cold Brew`
+             desc: `Cold brew is coffee steeped in cold water for 12-24 hours, resulting in a smooth, low-acid flavor.`
          };
     break;
 
@@ -70,7 +70,7 @@ switch(myDay){
         alt: "A pic of a Caramel Latte",
         color: "#bd6754",
         day: "Tuesday",
-        desc: `i like Caramel Latte`
+        desc: `A caramel latte is an espresso with steamed milk and sweet caramel syrup.`
     };
     break;
 
@@ -82,7 +82,7 @@ switch(myDay){
             alt: "A pic of a bubble tea",
             color: "pink",
             day: "Wednesday",
-            desc: `i like Bubble tea`
+            desc: `A boba drink is a sweet tea or milk beverage with chewy tapioca pearls.`
         };
      break;
 
@@ -91,10 +91,10 @@ switch(myDay){
          coffee ={
              name: "Frappaccino",
              pic: "images/frappaccino.jpg",
-             alt: "A pic of a bubble tea",
+             alt: "A pic of a Frappacino",
              color: "#659571",
              day: "Thursday",
-             desc: `i like Bubble tea`
+             desc: `i like Frappucino`
          };
       break;
 
@@ -106,7 +106,7 @@ switch(myDay){
              alt: "A pic of a Mocha",
              color: "#d8c685",
              day: "Friday",
-             desc: `i like Bubble tea`
+             desc: `i like Mocha`
          };
       break;
 
@@ -115,10 +115,10 @@ switch(myDay){
          coffee ={
              name: "Pumkin",
              pic: "images/pumpkin-spice-patte.jpg",
-             alt: "A pic of a bubble tea",
+             alt: "A pic of a Pumkin Spice",
              color: "#ea8447",
              day: "Saturday",
-             desc: `i like Bubble tea`
+             desc: `i like Pumkin Spice Latte`
          };
       break;
 
